@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SelectionViewController.h
 //  FoaasImpl
 //
 //  Created by Massimo Gengarelli on 25/06/14.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class FoaasMethod;
-
-@interface ViewController : UIViewController
-@property (strong, nonatomic) FoaasMethod *method;
-
-- (void)viewDidLoad;
+@interface SelectionViewController : UIViewController
 
 @end

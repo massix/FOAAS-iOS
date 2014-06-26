@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A8B3A5819A420DBCAA73E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ED9F72C8D14F6AA7800674 /* libPods.a */; };
 		CDB36EBF195B3C2300D1CFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB36EBE195B3C2300D1CFB5 /* Foundation.framework */; };
 		CDB36EC1195B3C2300D1CFB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB36EC0195B3C2300D1CFB5 /* CoreGraphics.framework */; };
 		CDB36EC3195B3C2300D1CFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB36EC2195B3C2300D1CFB5 /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		CDB36EE3195B3C2300D1CFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB36EC2195B3C2300D1CFB5 /* UIKit.framework */; };
 		CDB36EEB195B3C2300D1CFB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB36EE9195B3C2300D1CFB5 /* InfoPlist.strings */; };
 		CDB36EED195B3C2300D1CFB5 /* FoaasImplTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB36EEC195B3C2300D1CFB5 /* FoaasImplTests.m */; };
+		CDB36EF8195B3D9600D1CFB5 /* QueryProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB36EF7195B3D9600D1CFB5 /* QueryProcessor.m */; };
+		CDD658DE195B43FF00B66FD5 /* BModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD658DD195B43FF00B66FD5 /* BModel.m */; };
+		CDD658E2195B5CC700B66FD5 /* FoaasMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD658E0195B5CAB00B66FD5 /* FoaasMethod.m */; };
+		CDD658E5195B642000B66FD5 /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD658E4195B642000B66FD5 /* SelectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54ED9F72C8D14F6AA7800674 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB36EBB195B3C2300D1CFB5 /* FoaasImpl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoaasImpl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB36EBE195B3C2300D1CFB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDB36EC0195B3C2300D1CFB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +61,15 @@
 		CDB36EE8195B3C2300D1CFB5 /* FoaasImplTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoaasImplTests-Info.plist"; sourceTree = "<group>"; };
 		CDB36EEA195B3C2300D1CFB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDB36EEC195B3C2300D1CFB5 /* FoaasImplTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoaasImplTests.m; sourceTree = "<group>"; };
+		CDB36EF6195B3D9600D1CFB5 /* QueryProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryProcessor.h; sourceTree = "<group>"; };
+		CDB36EF7195B3D9600D1CFB5 /* QueryProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryProcessor.m; sourceTree = "<group>"; };
+		CDD658DC195B43FF00B66FD5 /* BModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BModel.h; sourceTree = "<group>"; };
+		CDD658DD195B43FF00B66FD5 /* BModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BModel.m; sourceTree = "<group>"; };
+		CDD658DF195B5CAB00B66FD5 /* FoaasMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoaasMethod.h; sourceTree = "<group>"; };
+		CDD658E0195B5CAB00B66FD5 /* FoaasMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoaasMethod.m; sourceTree = "<group>"; };
+		CDD658E3195B642000B66FD5 /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		CDD658E4195B642000B66FD5 /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		ED01970321BD43899D43FC68 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,7 @@
 				CDB36EC1195B3C2300D1CFB5 /* CoreGraphics.framework in Frameworks */,
 				CDB36EC3195B3C2300D1CFB5 /* UIKit.framework in Frameworks */,
 				CDB36EBF195B3C2300D1CFB5 /* Foundation.framework in Frameworks */,
+				18A8B3A5819A420DBCAA73E8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,7 @@
 				CDB36EE6195B3C2300D1CFB5 /* FoaasImplTests */,
 				CDB36EBD195B3C2300D1CFB5 /* Frameworks */,
 				CDB36EBC195B3C2300D1CFB5 /* Products */,
+				ED01970321BD43899D43FC68 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +124,7 @@
 				CDB36EC0195B3C2300D1CFB5 /* CoreGraphics.framework */,
 				CDB36EC2195B3C2300D1CFB5 /* UIKit.framework */,
 				CDB36EE0195B3C2300D1CFB5 /* XCTest.framework */,
+				54ED9F72C8D14F6AA7800674 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,8 +134,16 @@
 			children = (
 				CDB36ECD195B3C2300D1CFB5 /* AppDelegate.h */,
 				CDB36ECE195B3C2300D1CFB5 /* AppDelegate.m */,
-				CDB36ED0195B3C2300D1CFB5 /* Main_iPhone.storyboard */,
+				CDB36EF6195B3D9600D1CFB5 /* QueryProcessor.h */,
+				CDB36EF7195B3D9600D1CFB5 /* QueryProcessor.m */,
+				CDD658DF195B5CAB00B66FD5 /* FoaasMethod.h */,
+				CDD658E0195B5CAB00B66FD5 /* FoaasMethod.m */,
+				CDD658DC195B43FF00B66FD5 /* BModel.h */,
+				CDD658DD195B43FF00B66FD5 /* BModel.m */,
 				CDB36ED3195B3C2300D1CFB5 /* Main_iPad.storyboard */,
+				CDB36ED0195B3C2300D1CFB5 /* Main_iPhone.storyboard */,
+				CDD658E3195B642000B66FD5 /* SelectionViewController.h */,
+				CDD658E4195B642000B66FD5 /* SelectionViewController.m */,
 				CDB36ED6195B3C2300D1CFB5 /* ViewController.h */,
 				CDB36ED7195B3C2300D1CFB5 /* ViewController.m */,
 				CDB36ED9195B3C2300D1CFB5 /* Images.xcassets */,
@@ -162,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB36EF0195B3C2300D1CFB5 /* Build configuration list for PBXNativeTarget "FoaasImpl" */;
 			buildPhases = (
+				469DA60D920042748086151D /* Check Pods Manifest.lock */,
 				CDB36EB7195B3C2300D1CFB5 /* Sources */,
 				CDB36EB8195B3C2300D1CFB5 /* Frameworks */,
 				CDB36EB9195B3C2300D1CFB5 /* Resources */,
+				3BB01B2B5D984777AD0F41FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +230,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Massimo Gengarelli";
 				TargetAttributes = {
+					CDB36EBA195B3C2300D1CFB5 = {
+						DevelopmentTeam = 9J7QA5Z75T;
+					};
 					CDB36EDE195B3C2300D1CFB5 = {
 						TestTargetID = CDB36EBA195B3C2300D1CFB5;
 					};
@@ -248,14 +279,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BB01B2B5D984777AD0F41FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469DA60D920042748086151D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDB36EB7195B3C2300D1CFB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CDB36ED8195B3C2300D1CFB5 /* ViewController.m in Sources */,
+				CDD658DE195B43FF00B66FD5 /* BModel.m in Sources */,
+				CDB36EF8195B3D9600D1CFB5 /* QueryProcessor.m in Sources */,
+				CDD658E2195B5CC700B66FD5 /* FoaasMethod.m in Sources */,
 				CDB36ECF195B3C2300D1CFB5 /* AppDelegate.m in Sources */,
 				CDB36ECB195B3C2300D1CFB5 /* main.m in Sources */,
+				CDD658E5195B642000B66FD5 /* SelectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,26 +455,34 @@
 		};
 		CDB36EF1195B3C2300D1CFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED01970321BD43899D43FC68 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoaasImpl/FoaasImpl-Prefix.pch";
 				INFOPLIST_FILE = "FoaasImpl/FoaasImpl-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		CDB36EF2195B3C2300D1CFB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED01970321BD43899D43FC68 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoaasImpl/FoaasImpl-Prefix.pch";
 				INFOPLIST_FILE = "FoaasImpl/FoaasImpl-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +546,7 @@
 				CDB36EF2195B3C2300D1CFB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB36EF3195B3C2300D1CFB5 /* Build configuration list for PBXNativeTarget "FoaasImplTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +555,7 @@
 				CDB36EF5195B3C2300D1CFB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
